@@ -158,7 +158,35 @@
     text-align: center;
 }
 
+/* Footer */
 
+footer{
+    display: flex; 
+    justify-content: space-evenly;
+    margin: 100px 150px;
+}
+.footer-logo{
+    width: 330px;
+    height: 180px;
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-link>a{
+    text-decoration: none;
+    color:#6B7280;
+}
+.footer-link{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px 110px;
+}
+.footer-icon{
+    width: 210px;
+    height: 40px;
+    display: flex;
+    gap: 24px;
+    
+}
 
 
 
@@ -167,6 +195,8 @@
 /* Mobile responsive */
 
 @media screen and (max-width:576px){
+
+
     .display-none{
         display: none;
     }
@@ -179,38 +209,34 @@
         margin: auto 0px;
     }
     .banner-img{
-        width: 100%;
-        
+        width: 100%;   
     }
     .banner-text{
-        margin-left: 25px;
-        
+        margin-left: 25px;    
     }
     .banner-title{
         font-size: 2rem;
     }
     .banner-description{
-    font-size: 1rem;
+        font-size: 1rem;
     }
 
     
+
     .plant-description{
-    margin: auto auto;
+         margin: auto auto;
     }
-
     .plant-grid{
-    grid-template-columns: repeat(2,1fr);
-    gap: 80px 50px;
-    margin-top: 40px;
-
+        grid-template-columns: repeat(2,1fr);
+        gap: 80px 50px;
+        margin-top: 40px;
     }
-
     .plant{
-    margin: 100px 40px;
+        margin: 100px 40px;
     }
     .plant-card{
-    width: 170px;
-    height: 340px;
+        width: 170px;
+        height: 340px;
     }
     .plant-img{
         width: 170px;
@@ -218,38 +244,51 @@
     }
 
 
+
     .flower-lover{
-    margin: 100px 10px;
-    flex-direction: column;
+        margin: 100px 10px;
+        flex-direction: column;
     }
     .flower-img{
         width: 100%;
         margin-bottom: 0px;
     }
     .text{
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .flower-title{
-    font-size: 2.5rem;
+        font-size: 2.5rem;
     }
 
 
 
 
     .textarea-title{
-    font-size: 1.25rem;
+        font-size: 1.25rem;
     }
     .textarea-box{
-    width: 210px;
+        width: 210px;
     }
     .textarea-button{
-    width: 80px;
+        width: 80px;
     }
     .join-bg-img{
-    background-image:url(../assets/news-letter-bg.png);
         
+    }
+
+
+
+    footer{
+        flex-direction: column;
+        margin: auto 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .footer-link{
+        display: flex;
+        flex-direction: column;
     }
 
 
