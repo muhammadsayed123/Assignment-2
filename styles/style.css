@@ -30,9 +30,7 @@
 .home-link{
     font-weight: bold;
 }
-/* .shop-about-link{
-    color: #8987A1;
-} */
+
 
 /* Banner */
 
@@ -56,6 +54,11 @@
     font-size: 1.30rem;
     color:rgba(0, 0, 0, 0.5);
 }
+.for-mobile{
+    display: none;
+}
+
+
 
 /* Plants section */
 .plant{
@@ -88,11 +91,14 @@
     font-weight: 500;
     font-size: 1.3rem;
     text-align: center;
+    margin-bottom: 10px;
 }
 .card-price{
     font-weight: 700;
     font-size: 1.3rem;
     text-align: center;
+    margin-top: 10px;
+    
 }
 .card-button{
     width: 100%;
@@ -220,6 +226,10 @@ footer{
     .banner-description{
         font-size: 1rem;
     }
+    .for-mobile{
+    display: unset;
+    color: black;
+    }
 
     
 
@@ -290,6 +300,8 @@ footer{
         display: flex;
         flex-direction: column;
     }
-
+    .footer-icon{
+        margin-top: 30px;
+    }
 
 }
