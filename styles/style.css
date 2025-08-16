@@ -47,12 +47,157 @@
 }
 .banner-title{
     font-weight: 900;
-    font-size: 60px;
+    font-size: 4rem;
     line-height: 0.5;
     color: #E95A08;
 }
 
 .banner-description{
-    font-size: 22px;
+    font-size: 1.30rem;
     color:rgba(0, 0, 0, 0.5);
+}
+
+/* Plants section */
+.plant{
+    margin: 20px 120px;
+}
+.plant-text{
+    text-align: center;
+}
+.plant-title{
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.plant-description{
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin: auto 276px;
+}
+
+.plant-card{
+    width: 270px;
+    height: 480px;
+}
+.plant-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 80px 20px;
+    margin-top: 40px;
+}
+.card-name{
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.card-price{
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.card-button{
+    width: 100%;
+    background-color: #E95A08;
+    color: white;
+    height: 50px;
+    border: none;
+}
+
+
+/* Flower lover */
+
+.flower-lover{
+    margin: 100px 120px;
+    display: flex;
+    gap: 60px;
+}
+.text{
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.flower-title{
+    font-weight: 700;
+    font-size: 3.125rem;
+}
+.flower-description{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+/* Mobile responsive */
+
+@media screen and (max-width:576px){
+    .display-none{
+        display: none;
+    }
+    .navbar{
+        margin: 60px 16px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        /* margin: 0px; */
+        margin: auto 0px;
+    }
+    .banner-img{
+        width: 100%;
+        
+    }
+    .banner-text{
+        margin-left: 25px;
+        
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-description{
+    font-size: 1rem;
+    }
+
+    
+    .plant-description{
+    margin: auto auto;
+    }
+
+    .plant-grid{
+    grid-template-columns: repeat(2,1fr);
+    gap: 80px 50px;
+    margin-top: 40px;
+
+    }
+
+    .plant{
+    margin: 100px 40px;
+    }
+    .plant-card{
+    width: 170px;
+    height: 340px;
+    }
+    .plant-img{
+        width: 170px;
+        height: 195px;
+    }
+
+
+    .flower-lover{
+    margin: 100px 10px;
+    flex-direction: column;
+    }
+    .flower-img{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .text{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+    .flower-title{
+    font-size: 2.5rem;
+    }
 }
