@@ -128,6 +128,107 @@
     font-size: 1.375rem;
     color: rgba(0, 0, 0, 0.5);
 }
+.flower-img{
+    width: 600px;
+}
+.trusted-badge{
+    max-width: 250px;   
+}
+
+
+
+/* challenge section */
+
+.chl-text{
+    text-align: center;
+    margin: 100px 300px;
+}
+.chl-title{
+    font-size: 3.3rem;
+    font-weight: 700;
+}
+.chl-description{
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.chl-pic{
+    margin: 100px 150px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.bg-bloom{
+    background-image: url(../assets/deal-bloom.png);
+    width: 360px;
+    height: 190px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.bg-ana{
+    background-image: url(../assets/deal-ana.png);
+    width: 360px;
+    height: 190px;
+    border-radius: 20px;
+}
+.bg-zabo{
+    background-image: url(../assets/deal-zabo.png);
+    width: 750px;
+    height: 400px;
+    border-radius: 20px;
+}
+.two-pic{
+    
+}
+.bloom{
+    display: flex;
+    flex-direction:column;
+    /* margin-bottom: 0px; */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.bloom>a{
+    color: white;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.ana{
+    display: flex;
+    flex-direction:column;
+    /* margin-bottom: 0px; */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.ana>a{
+    color: white;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.zabo{
+    display: flex;
+    flex-direction:column;
+    /* margin-bottom: 0px; */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.zabo>a{
+    color: white;
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+
+
 
 /* Join section */
 
@@ -285,7 +386,9 @@ footer{
         width: 80px;
     }
     .join-bg-img{
-        
+        width: 100%;
+        height: 275px;
+        background-repeat: round;
     }
 
 
@@ -303,5 +406,39 @@ footer{
     .footer-icon{
         margin-top: 30px;
     }
+
+
+
+
+    .chl-text{  
+        margin: 0px 30px;
+    }
+    .chl-pic{
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .bg-bloom{
+        width: 100%;
+        height: 200px;
+        background-repeat: round;
+    }
+    .bg-ana{
+        width: 100%;
+        height: 200px;
+        background-repeat: round;
+    }
+    .bg-zabo{
+        width: 100%;
+        height: 200px;
+        background-repeat: round;
+    }
+    .chl-pic{
+        margin-bottom: 40px;
+    }
+
 
 }
