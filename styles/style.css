@@ -7,3 +7,52 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+.bg-color{
+    background-color: #f8f9fa;
+}
+
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 150px;
+    
+}
+.nav-link a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.home-link{
+    font-weight: bold;
+}
+/* .shop-about-link{
+    color: #8987A1;
+} */
+
+/* Banner */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 150px;
+    gap: 0px;
+}
+.banner-text{
+    padding-top: 25px;
+}
+.banner-title{
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 0.5;
+    color: #E95A08;
+}
+
+.banner-description{
+    font-size: 22px;
+    color:rgba(0, 0, 0, 0.5);
+}
